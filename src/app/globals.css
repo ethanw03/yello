@@ -82,19 +82,19 @@
     transform: rotate(160deg);
   }
   60% {
-    transform: rotate(135deg);
+    transform: rotate(130deg);
   }
   70% {
-    transform: rotate(145deg);
+    transform: rotate(150deg);
   }
   80% {
-    transform: rotate(132deg);
+    transform: rotate(135deg);
   }
   90% {
-    transform: rotate(147deg);
+    transform: rotate(145deg);
   }
   100% {
-    transform: rotate(131deg);
+    transform: rotate(137deg);
   }
 }
 
