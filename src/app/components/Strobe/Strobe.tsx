@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 
 type StrobeProps = {};
 
-const backgrounds = ['bg-brand-yellow', 'bg-brand-red']; 
+const backgrounds = ['bg-brand-yellow', 'bg-brand-red'];
 
 const Strobe: React.FC<StrobeProps> = ({}) => {
   const [bgClass, setBgClass] = useState(backgrounds[0]);
@@ -24,11 +24,11 @@ const Strobe: React.FC<StrobeProps> = ({}) => {
 
   return (
     <div className={`w-full h-screen ${bgClass} flex justify-center items-center`}>
-      
       <div className='lg:text-9xl text-7xl font-clash font-medium text-brand-black flex items-center border-brand-black lg:border-y-4 border-y-2 relative'>
-        
-        <span>YELL</span>
-        
+        {/* Apply the swing class to "E" */}
+        <span>Y</span>
+        <span className='swing'>E</span>
+        <span>LL</span>
         <span className='animate-bounce inline-block ml-1'>O</span>
       </div>
     </div>

@@ -61,3 +61,45 @@
 .bounce {
   animation: bounce 1.5s infinite;
 }
+
+@keyframes swing {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(200deg);
+  }
+  20% {
+    transform: rotate(100deg);
+  }
+  30% {
+    transform: rotate(180deg);
+  }
+  40% {
+    transform: rotate(120deg);
+  }
+  50% {
+    transform: rotate(160deg);
+  }
+  60% {
+    transform: rotate(135deg);
+  }
+  70% {
+    transform: rotate(145deg);
+  }
+  80% {
+    transform: rotate(132deg);
+  }
+  90% {
+    transform: rotate(147deg);
+  }
+  100% {
+    transform: rotate(131deg);
+  }
+}
+
+.swing {
+  display: inline-block;
+  transform-origin: bottom left;
+  animation: swing 5s ease-in-out infinite;
+}
