@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Strobe from "./components/Strobe/Strobe";
 
 export default function Home() {
   return (
-    <>
-    hi
-    </>
+    <div className="bg-brand-white">
+    <Strobe/>
+    </div>
   );
 }

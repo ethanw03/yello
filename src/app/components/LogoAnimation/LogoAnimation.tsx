@@ -1,13 +1,12 @@
 import Image from 'next/image';
-import { motion } from 'framer-motion';
 import logoImage from '../../../assets/Yello_Icon_Black.png';
-
 
 const LogoAnimation: React.FC = () => {
   return (
-    <div className='bg-white w-full h-lvh'>
-      <div className='flex justify-center w-full h-lvh items-center'>
-      <Image src={logoImage} alt='logo' className='flex h-fit'></Image>
+    <div className='bg-brand-white w-full h-screen flex justify-center items-center overflow-hidden mx-auto my-auto'>
+     
+      <div className='w-[300px] h-[300px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px]'> 
+        <Image src={logoImage} alt='logo' layout='responsive' className='rotate fill-brand-yellow'/>
       </div>
     </div>
   );

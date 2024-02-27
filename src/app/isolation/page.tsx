@@ -1,5 +1,5 @@
 import React from 'react'
-import Strobe from '../components/Strobe/Strobe'
+import LogoAnimation from '../components/LogoAnimation/LogoAnimation'
 
 type Props = {}
 
@@ -7,7 +7,7 @@ export default function page({}: Props) {
   return (
     
     <div className=''>
-      <Strobe/>
+      <LogoAnimation/>
     </div>
   )
 }

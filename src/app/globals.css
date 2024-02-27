@@ -4,6 +4,10 @@
 
 /* globals.css */
 
+/* Add to the top of your globals.css */
+
+
+
 /* Clash Display - Regular */
 @font-face {
   font-family: 'Clash Display';
@@ -104,4 +108,19 @@
   transform-origin: bottom left;
   animation: swing 6s ease-in-out infinite;
   animation-delay: 1.33s;
+}
+
+/* styles.css */
+
+.rotate {
+  animation: rotate 1.5s linear infinite; /* Adjust duration and timing function as needed */
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
