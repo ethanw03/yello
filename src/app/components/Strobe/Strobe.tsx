@@ -25,10 +25,11 @@ const Strobe: React.FC<StrobeProps> = ({}) => {
   return (
     <div className={`w-full h-screen ${bgClass} flex justify-center items-center`}>
       <div className='lg:text-9xl text-7xl font-clash font-medium text-brand-black flex items-center border-brand-black lg:border-y-4 border-y-2 relative'>
-        {/* Apply the swing class to "E" */}
-        <span>Y</span>
-        <span className='swing'>E</span>
-        <span>LL</span>
+        Y
+        {/* Adjusted span for "E" */}
+        <span className='swing' style={{ display: 'inline-block', transformOrigin: '0% 80%' }}>E</span>
+        LL
+        {/* Adjusted "O" with bounce */}
         <span className='animate-bounce inline-block ml-1'>O</span>
       </div>
     </div>

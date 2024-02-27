@@ -67,34 +67,34 @@
     transform: rotate(0deg);
   }
   10% {
-    transform: rotate(200deg);
+    transform: rotate(220deg);
   }
   20% {
-    transform: rotate(100deg);
+    transform: rotate(80deg);
   }
   30% {
-    transform: rotate(180deg);
+    transform: rotate(185deg);
   }
   40% {
-    transform: rotate(120deg);
+    transform: rotate(109.75deg);
   }
   50% {
-    transform: rotate(160deg);
+    transform: rotate(168.81deg);
   }
   60% {
-    transform: rotate(130deg);
+    transform: rotate(124.51deg);
   }
   70% {
-    transform: rotate(150deg);
+    transform: rotate(157.73deg);
   }
   80% {
-    transform: rotate(135deg);
+    transform: rotate(132.81deg);
   }
   90% {
-    transform: rotate(145deg);
+    transform: rotate(151.5deg);
   }
   100% {
-    transform: rotate(137deg);
+    transform: rotate(137.89deg);
   }
 }
 
