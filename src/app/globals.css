@@ -113,7 +113,7 @@
 /* styles.css */
 
 .rotate {
-  animation: rotate 1.5s linear infinite; /* Adjust duration and timing function as needed */
+  animation: rotate 2s linear infinite; /* Adjust duration and timing function as needed */
 }
 
 @keyframes rotate {
@@ -123,4 +123,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: #fff5e6;
+  animation: twinkle .5s infinite ease-in-out;
+}
+
+
+keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #fff; }
+}
+
+.typewriter-text {
+  position: absolute;
+  color: #fff5e6; /* The color you want for the text */
+  font-family: 'Clash Display', sans-serif;
+  white-space: nowrap;
+  font-size: 2rem; /* Adjust based on your design */
+  border-right: .15em solid #fff; /* The typewriter cursor */
+  animation: typing 3.5s steps(40, end) infinite, blink-caret .75s step-end infinite;
 }
