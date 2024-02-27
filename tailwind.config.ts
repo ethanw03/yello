@@ -7,17 +7,20 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    fontFamily: {
-      'clash': ['Clash Display']
-    },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        'brand-yellow': '#ffda00',
+        'brand-red': '#ec2327',
+        'brand-white': '#fff5e6',
+        'brand-black': '#414042',
       },
+      fontFamily: {
+        'clash': ['Clash Display', 'sans-serif'],
+      },
+     
     },
   },
   plugins: [],
 };
+
 export default config;
