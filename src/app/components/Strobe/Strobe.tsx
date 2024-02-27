@@ -13,11 +13,11 @@ const Strobe: React.FC<StrobeProps> = ({}) => {
     const interval = setInterval(() => {
       setBgClass(backgrounds[count % backgrounds.length]);
       count++;
-      if (count === 15) {
+      if (count === 20) {
         clearInterval(interval);
         setBgClass('bg-brand-white');
       }
-    }, 120);
+    }, 100);
 
     return () => clearInterval(interval);
   }, []);
@@ -26,10 +26,10 @@ const Strobe: React.FC<StrobeProps> = ({}) => {
     <div className={`w-full h-screen ${bgClass} flex justify-center items-center`}>
       <div className='lg:text-9xl text-7xl font-clash font-medium text-brand-black flex items-center border-brand-black lg:border-y-4 border-y-2 relative'>
         Y
-        {/* Adjusted span for "E" */}
+        
         <span className='swing' style={{ display: 'inline-block', transformOrigin: '0% 80%' }}>E</span>
         LL
-        {/* Adjusted "O" with bounce */}
+        
         <span className='animate-bounce inline-block ml-1'>O</span>
       </div>
     </div>

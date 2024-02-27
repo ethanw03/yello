@@ -59,7 +59,8 @@
 }
 
 .bounce {
-  animation: bounce 1.5s infinite;
+  animation: bounce 1.2s infinite;
+  
 }
 
 @keyframes swing {
@@ -101,5 +102,6 @@
 .swing {
   display: inline-block;
   transform-origin: bottom left;
-  animation: swing 5s ease-in-out infinite;
+  animation: swing 6s ease-in-out infinite;
+  animation-delay: 1.33s;
 }
