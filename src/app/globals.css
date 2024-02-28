@@ -113,7 +113,7 @@
 /* styles.css */
 
 .rotate {
-  animation: rotate 2s linear infinite; /* Adjust duration and timing function as needed */
+  animation: rotate 3s linear infinite; /* Adjust duration and timing function as needed */
 }
 
 @keyframes rotate {

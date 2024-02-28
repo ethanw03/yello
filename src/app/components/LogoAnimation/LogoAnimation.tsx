@@ -4,6 +4,8 @@ import React, { useEffect} from 'react';
 import Image from 'next/image';
 import logoImage from '../../../assets/Yello-Icon-White.png';
 import { Typewriter } from 'react-simple-typewriter'
+import CountUp from 'react-countup';
+
 
 import SplitType from 'split-type'
 
@@ -11,7 +13,7 @@ import SplitType from 'split-type'
 const LogoAnimation: React.FC = () => {
   
   
-  const stars = Array.from({ length: 300 }).map((_, index) => ({
+  const stars = Array.from({ length: 400 }).map((_, index) => ({
     id: index,
     style: {
       top: `${Math.random() * 100}%`,
@@ -28,7 +30,7 @@ const LogoAnimation: React.FC = () => {
       {stars.map((star) => (
         <div key={star.id} className="star" style={star.style}></div>
       ))}
-
+      
       <div className='flex flex-col place-items-end items-center relative  space-y-8'>
         
         <div className='animate-pulse'>
@@ -36,18 +38,20 @@ const LogoAnimation: React.FC = () => {
         </div>
         <div className=' '>
           <div className='relative  text-brand-white text-6xl  lg:text-7xl font-extralight'>
-          <span  className='right-32 absolute  h-full w-full before:bg-black opacity-75'><Typewriter
+          <span  className='justify-center relative top-8  left-3 h-full w-full before:bg-black opacity-75'><Typewriter
             words={['WELCOME','CREATE', 'EXPLORE',  'YELLO.' ]}
             loop={1}
             cursor
             cursorStyle='|'
-            typeSpeed={70}
-            deleteSpeed={50}
-            delaySpeed={1750}
+            typeSpeed={45}
+            deleteSpeed={30}
+            delaySpeed={1200}
           /></span>
           </div>
         </div>
        
+      </div><div className="absolute top-8 right-8 text-white text-lg font-normal opacity-85">
+         <CountUp end={100} duration={11} />
       </div>
     </div>
   );
