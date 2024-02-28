@@ -34,7 +34,7 @@ const LogoAnimation: React.FC = () => {
       <div className='flex flex-col place-items-end items-center relative  space-y-8'>
         
         <div className='animate-pulse'>
-        <Image src={logoImage} alt='logo' width={300} height={300}  className='rotate opacity-95  '/>
+        <Image src={logoImage} alt='logo' width={300} height={300}  className='rotate opacity-90  '/>
         </div>
         <div className=' '>
           <div className='relative  text-brand-white text-6xl  lg:text-7xl font-extralight'>
