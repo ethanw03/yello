@@ -33,15 +33,15 @@ const Home = () => {
           <p className="text-5xl  md:text-6xl font-extralight text-clash lg:text-7xl text-brand-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] ">INCOMING <br></br> FALL 2024</p>
         </div>
       </div>
-      <div className="absolute bottom-8 right-8 flex space-x-4 z-50">
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="md:text-black text-white hover:text-opacity-80">
-          <FaFacebookF size={24} />
+      <div className="absolute bottom-8 right-14 flex space-x-4 z-50">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="md:text-black text-white hover:text-opacity-80 hover:scale-110 hover:-translate-y-2">
+          <FaFacebookF size={44} />
         </a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="md:text-black text-white hover:text-opacity-80">
-          <FaInstagram size={24} />
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="md:text-black text-white hover:text-opacity-80 hover:scale-110 hover:-translate-y-2">
+          <FaInstagram size={44} />
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="md:text-black text-white hover:text-opacity-80">
-          <FaTwitter size={24} />
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="md:text-black text-white hover:text-opacity-80 hover:scale-110 hover:-translate-y-2">
+          <FaTwitter size={44} />
         </a>
       </div>
     </div>
