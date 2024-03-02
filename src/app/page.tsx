@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Strobe from "./components/Strobe/Strobe";
+import AnimationSequence from "./components/AnimationSequence/AnimationSequence";
 
 export default function Home() {
   return (
-    <div className="bg-brand-white">
-    <Strobe/>
+    <div className=" bg-brand-white">
+    <AnimationSequence/>
     </div>
   );
 }

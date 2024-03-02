@@ -1,5 +1,5 @@
 import React from 'react'
-import LogoAnimation from '../components/LogoAnimation/LogoAnimation'
+import AnimationSequence from '../components/AnimationSequence/AnimationSequence'
 
 type Props = {}
 
@@ -7,7 +7,7 @@ export default function page({}: Props) {
   return (
     
     <div className=''>
-      <LogoAnimation/>
+      <AnimationSequence/>
     </div>
   )
 }

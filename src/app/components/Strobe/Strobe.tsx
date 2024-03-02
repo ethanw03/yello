@@ -14,7 +14,7 @@ const Strobe: React.FC<StrobeProps> = ({}) => {
       setBgClass(backgrounds[count % backgrounds.length]);
       count++;
       
-      if (count === 20) {
+      if (count === 30) {
         clearInterval(interval);
         setBgClass('bg-brand-white');
       }
@@ -25,7 +25,7 @@ const Strobe: React.FC<StrobeProps> = ({}) => {
 
   return (
     <div className={`w-full h-screen ${bgClass} bg-opacity-35 flex justify-center items-center`}>
-      <div className='lg:text-9xl text-7xl font-clash font-medium text-brand-black flex items-center border-brand-black lg:border-y-4 border-y-2 relative'>
+      <div className='lg:text-9xl text-7xl font-clash font-medium text-brand-black flex items-center border-brand-black lg:border-y-4 border-y-2 z-50 relative'>
         Y
         
         <span className='swing' style={{ display: 'inline-block', transformOrigin: '0% 80%' }}>E</span>
