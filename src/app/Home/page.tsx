@@ -19,7 +19,7 @@ const Home = () => {
       className="absolute top-8 left-4 z-50 flex items-center md:hidden hover:scale-110">
         <Image src={logoWhite} alt="Logo" width={70} height={70} />
         <div className="bg-black mx-2" style={{ width: '2px', height: '24px' }}></div> {/* Line separator */}
-        <span className="text-xl font-bold text-black">YELLO</span> {/* Text */}
+        <span className="text-xl font-bold text-brand-white">YELLO</span> {/* Text */}
       </motion.div>
       {/* Logo and "YELLO" text on "md" screens and larger */}
       <div className="hidden md:flex absolute top-8 left-8 z-50 items-center hover:scale-110">

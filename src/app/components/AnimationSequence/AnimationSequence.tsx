@@ -39,8 +39,8 @@ export default function AnimationSequence() {
                     key="strobe"
                     initial={{ opacity: 1, }} 
 
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: '80vh' }}
+                    animate={{ opacity: 1,}}
+                    exit={{ opacity: 0,  }}
                     transition={{ duration: .25, type: "spring", stiffness: 20 }}
                 >
                     <Strobe />
