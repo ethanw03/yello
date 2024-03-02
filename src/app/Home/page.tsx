@@ -13,12 +13,12 @@ const Home = () => {
     <div className="bg-brand-white h-lvh w-screen overflow-hidden flex flex-col justify-center items-center relative">
       {/* Logo and "YELLO" text on smaller screens */}
       <motion.div 
-      initial={{x:'-20px'}}
+      initial={{x:'-100vw'}}
       animate={{x:0}}
-      transition={ {duration: 5}}
+      transition={ {duration: 2}}
       className="absolute top-8 left-4 z-50 flex items-center md:hidden hover:scale-110">
         <Image src={logoWhite} alt="Logo" width={70} height={70} />
-        <div className="bg-black mx-2" style={{ width: '2px', height: '24px' }}></div> {/* Line separator */}
+        <div className="bg-brand-white mx-2" style={{ width: '2px', height: '24px' }}></div> {/* Line separator */}
         <span className="text-xl font-bold text-brand-white">YELLO</span> {/* Text */}
       </motion.div>
       {/* Logo and "YELLO" text on "md" screens and larger */}
@@ -46,7 +46,7 @@ const Home = () => {
   </div>
 </div>
       </div>
-      <div className="absolute bottom-8 right-14 flex space-x-4 z-50">
+      <div className="absolute bottom-28 lg:bottom-8 right-14 flex space-x-4 z-50 ">
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="md:text-black text-brand-white hover:text-opacity-80 hover:scale-110 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] hover:-translate-y-2">
           <FaFacebookF size={44} />
         </a>
