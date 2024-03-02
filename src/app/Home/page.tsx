@@ -5,16 +5,22 @@ import logoBlack from '../../assets/Yello_Icon_Black.png';
 import logoWhite from '../../assets/Yello-Icon-White.png';
 import backdrop from '../../assets/backdrop.png';
 import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa'; 
+import { motion } from 'framer-motion'
+
 const Home = () => {
   return (
     
     <div className="bg-brand-white h-screen w-screen overflow-hidden flex flex-col justify-center items-center relative">
       {/* Logo and "YELLO" text on smaller screens */}
-      <div className="absolute top-8 left-4 z-50 flex items-center md:hidden hover:scale-110">
+      <motion.div 
+      initial={{x:'-20px'}}
+      animate={{x:0}}
+      transition={ {duration: 5}}
+      className="absolute top-8 left-4 z-50 flex items-center md:hidden hover:scale-110">
         <Image src={logoWhite} alt="Logo" width={70} height={70} />
         <div className="bg-black mx-2" style={{ width: '2px', height: '24px' }}></div> {/* Line separator */}
         <span className="text-xl font-bold text-black">YELLO</span> {/* Text */}
-      </div>
+      </motion.div>
       {/* Logo and "YELLO" text on "md" screens and larger */}
       <div className="hidden md:flex absolute top-8 left-8 z-50 items-center hover:scale-110">
         <Image src={logoBlack} alt="Logo" width={100} height={100} />

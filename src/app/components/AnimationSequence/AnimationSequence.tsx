@@ -40,8 +40,8 @@ export default function AnimationSequence() {
                     initial={{ opacity: 1, }} 
 
                     animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: '70vh' }}
-                    transition={{ duration: 2, type: "spring", stiffness: 20 }}
+                    exit={{ opacity: 0, y: '80vh' }}
+                    transition={{ duration: .25, type: "spring", stiffness: 20 }}
                 >
                     <Strobe />
                 </motion.div>
@@ -51,7 +51,7 @@ export default function AnimationSequence() {
                     key="home"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    transition={{ duration: 1 }}
+                    transition={{ duration: .5 }}
                     
                 >
                     <Home />
