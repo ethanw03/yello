@@ -10,7 +10,7 @@ import { motion } from 'framer-motion'
 const Home = () => {
   return (
     
-    <div className="bg-brand-white h-screen w-screen overflow-hidden flex flex-col justify-center items-center relative">
+    <div className="bg-brand-white h-lvh w-screen overflow-hidden flex flex-col justify-center items-center relative">
       {/* Logo and "YELLO" text on smaller screens */}
       <motion.div 
       initial={{x:'-20px'}}
