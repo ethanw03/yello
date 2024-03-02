@@ -7,7 +7,7 @@ export default function page({}: Props) {
   return (
     
     <div className=''>
-      <AnimationSequence/>
+      
     </div>
   )
 }
