@@ -46,7 +46,7 @@ const Home = () => {
   </div>
 </div>
       </div>
-      <div className="absolute bottom-28 lg:bottom-8 right-14 flex space-x-4 z-50 ">
+      <div className="absolute bottom-8 right-14 flex space-x-4 z-50">
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="md:text-black text-brand-white hover:text-opacity-80 hover:scale-110 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] hover:-translate-y-2">
           <FaFacebookF size={44} />
         </a>
