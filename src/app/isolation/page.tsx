@@ -1,5 +1,5 @@
 import React from 'react'
-import AnimationSequence from '../components/AnimationSequence/AnimationSequence'
+
 
 type Props = {}
 

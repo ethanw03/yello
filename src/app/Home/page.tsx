@@ -1,7 +1,9 @@
+'use client'
 import React from 'react';
 import Image from 'next/image';
 import logo from '../../assets/Yello_Icon_Black.png';
 import { motion } from 'framer-motion';
+
 
 const Home = () => {
   return (
