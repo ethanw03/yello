@@ -16,7 +16,7 @@ export default function AnimationSequence() {
         if (stage === 0) {
             timeouts.push(setTimeout(() => setStage(1), 5000));
         } else if (stage === 1) {
-            timeouts.push(setTimeout(() => setStage(2), 5000));
+            timeouts.push(setTimeout(() => setStage(2), 3000));
         }
         return () => timeouts.forEach(clearTimeout);
     }, [stage]);
