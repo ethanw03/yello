@@ -18,8 +18,8 @@ export default function RootLayout({
   return (
     <>
       <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
+        <title>Yello Creative Studio</title>
+        <meta name="description" content='Vancouver creative hair studio' />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         {/* Any other head elements you need */}
