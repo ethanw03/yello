@@ -40,7 +40,7 @@ export default function AnimationSequence() {
                     initial={{ opacity: 1, }} 
 
                     animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: '100vh' }}
+                    exit={{ opacity: 0, y: '70vh' }}
                     transition={{ duration: 2, type: "spring", stiffness: 20 }}
                 >
                     <Strobe />
