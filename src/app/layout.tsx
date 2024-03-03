@@ -16,6 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    <html lang="en">
     <>
       <Head>
         <title>Yello Creative Studio</title>
@@ -26,5 +27,6 @@ export default function RootLayout({
       </Head>
       <body className={inter.className}>{children}</body>
     </>
+    </html>
   );
 }
